@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./card.styles.css";
+import "../cardList/carList.styles.css";
 export default class CardComponent extends Component {
   render() {
     const {name, email, id} = this.props.monsters;
